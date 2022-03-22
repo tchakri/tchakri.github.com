@@ -1,0 +1,10 @@
+.card {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.selected {
+  color: white !important;
+  background-color: deepskyblue !important;
+}

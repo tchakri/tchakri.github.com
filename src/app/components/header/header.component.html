@@ -1,0 +1,35 @@
+<div class="row mb-3">
+  <div class="col-3 d-flex justify-content-center align-items-start">
+    <button type="button" class="btn btn-primary btn-121" (click)="redirectTo()">Button_121</button>
+  </div>
+  <div class="col-9">
+    <form>
+      <fieldset class="border p-2">
+        <legend class="float-none w-auto p-2">GB Text 1</legend>
+        <form>
+          <div class="row mb-3">
+            <div class="col-2"><label class="form-label">label2</label></div>
+            <div class="col-10">
+              <input type="text" class="w-50" autocomplete="off" [(ngModel)]="formData.label2" name="label2">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-2"><label class="form-label">label3</label></div>
+            <div class="col-10">
+              <input type="text" class="w-100" autocomplete="off" [(ngModel)]="formData.label3" name="label3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-2"><label class="form-label">label4</label></div>
+            <div class="col-5">
+              <input type="text" class="w-100" autocomplete="off" [(ngModel)]="formData.label4" name="label4">
+            </div>
+            <div class="col-5 flex-center">
+              <button type="button" class="btn btn-primary btn-process" (click)="processData()">Process</button>
+            </div>
+          </div>
+        </form>
+      </fieldset>
+    </form>
+  </div>
+</div>
