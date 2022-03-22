@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  inputFile: '../../assets/SAMPLE_INPUT.txt',
+  exportFileName: 'SAMPLE_OUTPUT.txt'
 };
